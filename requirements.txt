@@ -1,0 +1,7 @@
+discord.py
+APScheduler
+requests
+pillow
+aiosqlite
+flask
+python-dotenv

@@ -1,0 +1,17 @@
+{
+  "channels": [
+    {
+      "id": "123456789012345678",
+      "name": "allnews",
+      "sources": ["anilist", "reddit", "youtube", "ann", "mangadex"],
+      "welcome_message": "Welcome to All Anime News!",
+      "pinned_message": "This channel combines all anime and manga news.",
+      "post_template": "**{title}**\n{description}\n{url}",
+      "active": true
+    }
+    // ... more channels ...
+  ],
+  "admins": ["Admin", "Bot Manager"],
+  "prefix": "!",
+  "interval_minutes": 30
+}
