@@ -1,0 +1,8 @@
+{
+  "welcome": "Welcome! Want a trailer, a quiz, or a random anime scene?",
+  "recommend_prompt": "What kind of anime are you in the mood for?",
+  "search_result": "Here are your search results:",
+  "rank": "Your rank: {rank}\nXP: {xp}",
+  "leaderboard": "Top 10 XP Users:",
+  "error": "Sorry, something went wrong."
+}

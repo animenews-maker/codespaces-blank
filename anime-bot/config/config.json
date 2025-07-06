@@ -1,0 +1,210 @@
+{
+  "channels": {
+    "anime-news": {
+      "welcome_message": "Welcome to Anime News!",
+      "template": "🔥 {title} - {studio} #anime #news",
+      "ping_roles": ["@Anime"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 30,
+      "emoji_reactions": ["🔥", "🎬"],
+      "daily_limit": 24
+    },
+    "manga-updates": {
+      "welcome_message": "Latest Manga Drops!",
+      "template": "📖 {title} - {author} #manga #update",
+      "ping_roles": ["@Manga"],
+      "thread_enabled": false,
+      "pin_rotation": false,
+      "post_interval": 60,
+      "emoji_reactions": ["📖", "✨"],
+      "daily_limit": 12
+    },
+    "trailer-drops": {
+      "welcome_message": "New Trailers!",
+      "template": "🎬 {title} - {studio} #trailer #anime",
+      "ping_roles": ["@Trailers"],
+      "thread_enabled": true,
+      "pin_rotation": false,
+      "post_interval": 45,
+      "emoji_reactions": ["🎬", "🔥"],
+      "daily_limit": 10
+    },
+    "reddit-feed": {
+      "welcome_message": "Reddit Anime Feed!",
+      "template": "🗨️ {title} #reddit #anime",
+      "ping_roles": ["@Reddit"],
+      "thread_enabled": false,
+      "pin_rotation": false,
+      "post_interval": 60,
+      "emoji_reactions": ["🗨️", "⬆️"],
+      "daily_limit": 20
+    }
+  },
+  "sources": [
+    "anilist", "reddit", "youtube", "ann", "mangadex", "myanimelist", "livechart", "kitsu", "twitter", "crunchyroll"
+  ],
+  "dashboard": {
+    "enabled": true,
+    "port": 8080
+  },
+  "backup": {
+    "enabled": true,
+    "path": "config_backup_YYYY-MM-DD.json"
+  },
+  "mood_engine": {
+    "enabled": true,
+    "default_mood": "neutral",
+    "supported_moods": ["sad", "hype", "nostalgic", "romantic", "calm"],
+    "vibe_check_interval": 60
+  },
+  "watchlist": {
+    "enabled": true,
+    "anilist_sync": true,
+    "mal_sync": true,
+    "notion_export": false
+  },
+  "calendar": {
+    "enabled": true,
+    "dashboard_url": "/calendar",
+    "notify_on_delay": true
+  },
+  "voice_assistant": {
+    "enabled": true,
+    "tts": true,
+    "stt": true,
+    "supported_languages": ["en", "ja", "es", "hi", "fr", "ko"],
+    "singing": true
+  },
+  "persona_system": {
+    "enabled": true,
+    "public_personas": true,
+    "max_personas_per_user": 3
+  },
+  "music_ai": {
+    "enabled": false
+  },
+  "future": {
+    "vr_metaverse": {
+      "enabled": false,
+      "platforms": ["VRChat", "Horizon Worlds"],
+      "avatar_support": true
+    },
+    "ai_characters": {
+      "enabled": false,
+      "npc_roleplay": true,
+      "emotional_voice": true
+    },
+    "art_studio": {
+      "enabled": false,
+      "ai_model": "stable-diffusion",
+      "nft_minting": false
+    },
+    "rpg": {
+      "enabled": false,
+      "multiplayer": true,
+      "guilds": true
+    },
+    "streaming": {
+      "enabled": false,
+      "providers": ["Crunchyroll", "Funimation", "Netflix"]
+    },
+    "lore": {
+      "enabled": false,
+      "ai_lorekeeper": true
+    },
+    "plugins": {
+      "enabled": false,
+      "marketplace": true,
+      "api_access": true
+    },
+    "mobile": {
+      "enabled": false,
+      "ar_support": true,
+      "voice_assistant": true
+    },
+    "global_network": {
+      "enabled": false,
+      "federation": true,
+      "server_bridge": true
+    }
+  },
+  "future_v26_v35": {
+    "scriptwriter": {
+      "enabled": false,
+      "collaborative": true,
+      "export_formats": ["script", "manga"]
+    },
+    "trailer_gen": {
+      "enabled": false,
+      "auto_subtitle": true,
+      "mashup": true
+    },
+    "news_aggregator": {
+      "enabled": false,
+      "multi_language": true,
+      "ai_summary": true
+    },
+    "vr_rpg": {
+      "enabled": false,
+      "economy": true,
+      "live_events": true
+    },
+    "character_creator": {
+      "enabled": false,
+      "ai_coach": true
+    },
+    "moderation_ai": {
+      "enabled": false,
+      "sentiment_filter": true,
+      "dashboard_alerts": true
+    },
+    "event_hosting": {
+      "enabled": false,
+      "cross_platform": true,
+      "ticketing": true
+    },
+    "mobile_app": {
+      "enabled": false,
+      "offline_mode": true,
+      "voice_commands": true
+    },
+    "cosplay_hub": {
+      "enabled": false,
+      "contests": true,
+      "marketplace": true
+    },
+    "predictive_analytics": {
+      "enabled": false,
+      "trend_forecast": true,
+      "personalized_reports": true
+    }
+  },
+  "future_v36_v40": {
+    "collab_studio": {
+      "enabled": false,
+      "storyboard": true,
+      "version_control": true
+    },
+    "decentralized": {
+      "enabled": false,
+      "blockchain": true,
+      "p2p_sharing": true
+    },
+    "emotion_ai": {
+      "enabled": false,
+      "webcam": true,
+      "voice_tone": true
+    },
+    "metaverse": {
+      "enabled": false,
+      "platforms": ["Decentraland", "The Sandbox"],
+      "nft_avatars": true
+    },
+    "podcast_radio": {
+      "enabled": false,
+      "character_hosts": true,
+      "live_callin": true
+    }
+  }
+}

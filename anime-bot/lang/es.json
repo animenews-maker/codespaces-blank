@@ -1,0 +1,8 @@
+{
+  "welcome": "¡Bienvenido! ¿Quieres un tráiler, un quiz o una escena de anime al azar?",
+  "recommend_prompt": "¿Qué tipo de anime te apetece ver?",
+  "search_result": "Aquí están tus resultados de búsqueda:",
+  "rank": "Tu rango: {rank}\nXP: {xp}",
+  "leaderboard": "Top 10 usuarios XP:",
+  "error": "Lo siento, algo salió mal."
+}

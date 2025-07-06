@@ -1,0 +1,1035 @@
+{
+  "channels": {
+    "anime-news": {
+      "welcome_message": "Welcome to Anime News!",
+      "template": "🔥 {title} - {studio} #anime #news",
+      "ping_roles": ["@Anime"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 30,
+      "emoji_reactions": ["🔥", "🎬"],
+      "daily_limit": 24
+    },
+    "manga-updates": {
+      "welcome_message": "Latest Manga Drops!",
+      "template": "📖 {title} - {author} #manga #update",
+      "ping_roles": ["@Manga"],
+      "thread_enabled": false,
+      "pin_rotation": false,
+      "post_interval": 60,
+      "emoji_reactions": ["📖", "✨"],
+      "daily_limit": 12
+    },
+    "trailer-drops": {
+      "welcome_message": "New Trailers!",
+      "template": "🎬 {title} - {studio} #trailer #anime",
+      "ping_roles": ["@Trailers"],
+      "thread_enabled": true,
+      "pin_rotation": false,
+      "post_interval": 45,
+      "emoji_reactions": ["🎬", "🔥"],
+      "daily_limit": 10
+    },
+    "reddit-feed": {
+      "welcome_message": "Reddit Anime Feed!",
+      "template": "🗨️ {title} #reddit #anime",
+      "ping_roles": ["@Reddit"],
+      "thread_enabled": false,
+      "pin_rotation": false,
+      "post_interval": 60,
+      "emoji_reactions": ["🗨️", "⬆️"],
+      "daily_limit": 20
+    },
+    "anime-memes": {
+      "welcome_message": "Anime Memes Central!",
+      "template": "😂 {title} - {uploader} #anime #memes",
+      "ping_roles": ["@Memes"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 15,
+      "emoji_reactions": ["😂", "👍"],
+      "daily_limit": 30
+    },
+    "manga-discussion": {
+      "welcome_message": "Manga Discussion Zone!",
+      "template": "📚 {title} - {chapter} #manga #discussion",
+      "ping_roles": ["@MangaDiscussion"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 20,
+      "emoji_reactions": ["📚", "💬"],
+      "daily_limit": 25
+    },
+    "anime-art": {
+      "welcome_message": "Anime Art Showcase!",
+      "template": "🎨 {artist} - {title} #animeart #showcase",
+      "ping_roles": ["@Art"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 30,
+      "emoji_reactions": ["🎨", "❤️"],
+      "daily_limit": 15
+    },
+    "manga-fanart": {
+      "welcome_message": "Manga Fan Art Gallery!",
+      "template": "🖌️ {artist} - {title} #mangaart #fanart",
+      "ping_roles": ["@FanArt"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 30,
+      "emoji_reactions": ["🖌️", "💖"],
+      "daily_limit": 15
+    },
+    "anime-events": {
+      "welcome_message": "Upcoming Anime Events!",
+      "template": "📅 {event} - {date} #animeevents #updates",
+      "ping_roles": ["@Events"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["📅", "🎉"],
+      "daily_limit": 5
+    },
+    "manga-announcements": {
+      "welcome_message": "Manga Announcements & News!",
+      "template": "📢 {title} - {author} #mangaannouncements #news",
+      "ping_roles": ["@MangaNews"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["📢", "📰"],
+      "daily_limit": 10
+    },
+    "anime-quotes": {
+      "welcome_message": "Inspirational Anime Quotes!",
+      "template": "💬 {quote} - {character} #animequotes #inspiration",
+      "ping_roles": ["@Quotes"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["💬", "✨"],
+      "daily_limit": 5
+    },
+    "manga-recommendations": {
+      "welcome_message": "Manga Recommendations!",
+      "template": "👍 {title} - {author} #mangarecommendations #mustread",
+      "ping_roles": ["@Recommendations"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["👍", "📚"],
+      "daily_limit": 8
+    },
+    "anime-music": {
+      "welcome_message": "Anime Music Corner!",
+      "template": "🎶 {title} - {artist} #animemusic #nowplaying",
+      "ping_roles": ["@Music"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["🎶", "❤️"],
+      "daily_limit": 10
+    },
+    "manga-polls": {
+      "welcome_message": "Manga Polls & Surveys!",
+      "template": "📊 {question} #mangapolls #community",
+      "ping_roles": ["@Polls"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["📊", "❓"],
+      "daily_limit": 5
+    },
+    "anime-theory": {
+      "welcome_message": "Anime Theories & Speculations!",
+      "template": "🤔 {theory} - {anime} #animetheory #speculation",
+      "ping_roles": ["@Theories"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🤔", "💭"],
+      "daily_limit": 6
+    },
+    "manga-translations": {
+      "welcome_message": "Manga Translations Hub!",
+      "template": "🌐 {title} - {language} #mangatranslations #scanlation",
+      "ping_roles": ["@Translations"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 90,
+      "emoji_reactions": ["🌐", "📖"],
+      "daily_limit": 10
+    },
+    "anime-merch": {
+      "welcome_message": "Anime Merchandise Deals!",
+      "template": "🛒 {item} - {store} #animemerch #deals",
+      "ping_roles": ["@Merch"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🛒", "🔥"],
+      "daily_limit": 4
+    },
+    "manga-anime-comparisons": {
+      "welcome_message": "Manga vs Anime Comparisons!",
+      "template": "⚔️ {title} - {manga_chapter} vs {anime_episode} #mangaanime #comparison",
+      "ping_roles": ["@Comparisons"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 150,
+      "emoji_reactions": ["⚔️", "📊"],
+      "daily_limit": 5
+    },
+    "anime-location": {
+      "welcome_message": "Anime Location Spotting!",
+      "template": "📍 {location} - {anime} #animelocations #spotting",
+      "ping_roles": ["@Locations"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["📍", "🗺️"],
+      "daily_limit": 6
+    },
+    "manga-coloring": {
+      "welcome_message": "Manga Coloring Contest!",
+      "template": "🎨 {title} - {artist} #mangacoloring #contest",
+      "ping_roles": ["@Coloring"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎨", "🏆"],
+      "daily_limit": 3
+    },
+    "anime-movie-night": {
+      "welcome_message": "Anime Movie Night Events!",
+      "template": "🎥 {movie} - {date} #animemovienight #events",
+      "ping_roles": ["@MovieNight"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["🎥", "🍿"],
+      "daily_limit": 2
+    },
+    "manga-reading-club": {
+      "welcome_message": "Manga Reading Club Meetings!",
+      "template": "📚 {title} - {date} #mangareadingclub #meetup",
+      "ping_roles": ["@ReadingClub"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["📚", "☕"],
+      "daily_limit": 2
+    },
+    "anime-conventions": {
+      "welcome_message": "Anime Conventions & Expos!",
+      "template": "🏢 {convention} - {date} #animeconventions #expo",
+      "ping_roles": ["@Conventions"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 300,
+      "emoji_reactions": ["🏢", "🎟️"],
+      "daily_limit": 2
+    },
+    "manga-expo": {
+      "welcome_message": "Manga Expo Highlights!",
+      "template": "🌟 {event} - {date} #mangaexpo #highlights",
+      "ping_roles": ["@Expo"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 300,
+      "emoji_reactions": ["🌟", "📅"],
+      "daily_limit": 2
+    },
+    "anime-music-videos": {
+      "welcome_message": "Anime Music Video Premieres!",
+      "template": "📺 {title} - {artist} #animemusicvideos #premiere",
+      "ping_roles": ["@AMVs"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["📺", "🎶"],
+      "daily_limit": 10
+    },
+    "manga-light-novels": {
+      "welcome_message": "Light Novel Releases & Updates!",
+      "template": "📖 {title} - {author} #lightnovels #updates",
+      "ping_roles": ["@LightNovels"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["📖", "✨"],
+      "daily_limit": 8
+    },
+    "anime-drawing-challenge": {
+      "welcome_message": "Anime Drawing Challenge Entries!",
+      "template": "✏️ {title} - {artist} #animedrawingchallenge #entries",
+      "ping_roles": ["@DrawingChallenge"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["✏️", "🏅"],
+      "daily_limit": 3
+    },
+    "manga-sketches": {
+      "welcome_message": "Manga Sketch Sharing!",
+      "template": "🖊️ {title} - {artist} #mangasketches #artshare",
+      "ping_roles": ["@Sketches"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🖊️", "👍"],
+      "daily_limit": 3
+    },
+    "anime-roleplay": {
+      "welcome_message": "Anime Roleplay Sessions!",
+      "template": "🎭 {session} - {anime} #animroleplay #sessions",
+      "ping_roles": ["@Roleplay"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["🎭", "📜"],
+      "daily_limit": 2
+    },
+    "manga-roleplay": {
+      "welcome_message": "Manga Roleplay Adventures!",
+      "template": "📜 {adventure} - {manga} #mangaroleplay #adventures",
+      "ping_roles": ["@MangaRoleplay"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["📜", "🖌️"],
+      "daily_limit": 2
+    },
+    "anime-fan-theory": {
+      "welcome_message": "Anime Fan Theories!",
+      "template": "🧐 {theory} - {anime} #animefantheory #discussion",
+      "ping_roles": ["@FanTheories"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🧐", "💡"],
+      "daily_limit": 6
+    },
+    "manga-fan-theory": {
+      "welcome_message": "Manga Fan Theories!",
+      "template": "🧐 {theory} - {manga} #mangafantheory #discussion",
+      "ping_roles": ["@MangaFanTheories"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🧐", "💡"],
+      "daily_limit": 6
+    },
+    "anime-voice-acting": {
+      "welcome_message": "Anime Voice Acting Auditions!",
+      "template": "🎤 {character} - {anime} #animevoiceacting #auditions",
+      "ping_roles": ["@VoiceActing"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎤", "🎭"],
+      "daily_limit": 3
+    },
+    "manga-voice-acting": {
+      "welcome_message": "Manga Voice Acting Auditions!",
+      "template": "🎤 {character} - {manga} #mangavoiceacting #auditions",
+      "ping_roles": ["@MangaVoiceActing"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎤", "📜"],
+      "daily_limit": 3
+    },
+    "anime-soundtracks": {
+      "welcome_message": "Anime Soundtrack Sharing!",
+      "template": "🎶 {title} - {artist} #animesoundtracks #musicshare",
+      "ping_roles": ["@Soundtracks"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["🎶", "❤️"],
+      "daily_limit": 10
+    },
+    "manga-soundtracks": {
+      "welcome_message": "Manga Soundtrack Adaptations!",
+      "template": "🎶 {title} - {artist} #mangasoundtracks #musicadaptation",
+      "ping_roles": ["@MangaSoundtracks"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["🎶", "📖"],
+      "daily_limit": 10
+    },
+    "anime-bloopers": {
+      "welcome_message": "Anime Bloopers & Funny Moments!",
+      "template": "😂 {moment} - {anime} #animebloopers #funny",
+      "ping_roles": ["@Bloopers"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["😂", "🤣"],
+      "daily_limit": 5
+    },
+    "manga-bloopers": {
+      "welcome_message": "Manga Bloopers & Funny Moments!",
+      "template": "😂 {moment} - {manga} #mangabloopers #funny",
+      "ping_roles": ["@MangaBloopers"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["😂", "🤣"],
+      "daily_limit": 5
+    },
+    "anime-fan-art": {
+      "welcome_message": "Anime Fan Art Showcase!",
+      "template": "🖼️ {artist} - {title} #animefanart #showcase",
+      "ping_roles": ["@FanArt"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 30,
+      "emoji_reactions": ["🖼️", "❤️"],
+      "daily_limit": 15
+    },
+    "manga-fan-art": {
+      "welcome_message": "Manga Fan Art Showcase!",
+      "template": "🖼️ {artist} - {title} #mangafanart #showcase",
+      "ping_roles": ["@MangaFanArt"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 30,
+      "emoji_reactions": ["🖼️", "💖"],
+      "daily_limit": 15
+    },
+    "anime-giveaways": {
+      "welcome_message": "Anime Giveaways & Contests!",
+      "template": "🎁 {prize} - {anime} #animegiveaways #contest",
+      "ping_roles": ["@Giveaways"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 300,
+      "emoji_reactions": ["🎁", "🏆"],
+      "daily_limit": 2
+    },
+    "manga-giveaways": {
+      "welcome_message": "Manga Giveaways & Contests!",
+      "template": "🎁 {prize} - {manga} #mangagiveaways #contest",
+      "ping_roles": ["@MangaGiveaways"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 300,
+      "emoji_reactions": ["🎁", "🏆"],
+      "daily_limit": 2
+    },
+    "anime-fan-clubs": {
+      "welcome_message": "Anime Fan Clubs & Communities!",
+      "template": "👥 {club} - {anime} #animefanclubs #community",
+      "ping_roles": ["@FanClubs"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["👥", "❤️"],
+      "daily_limit": 3
+    },
+    "manga-fan-clubs": {
+      "welcome_message": "Manga Fan Clubs & Communities!",
+      "template": "👥 {club} - {manga} #mangafanclubs #community",
+      "ping_roles": ["@MangaFanClubs"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["👥", "💖"],
+      "daily_limit": 3
+    },
+    "anime-fan-fiction": {
+      "welcome_message": "Anime Fan Fiction & Stories!",
+      "template": "📖 {title} - {author} #animefanfiction #stories",
+      "ping_roles": ["@FanFiction"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["📖", "✨"],
+      "daily_limit": 2
+    },
+    "manga-fan-fiction": {
+      "welcome_message": "Manga Fan Fiction & Stories!",
+      "template": "📖 {title} - {author} #mangafanfiction #stories",
+      "ping_roles": ["@MangaFanFiction"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["📖", "✨"],
+      "daily_limit": 2
+    },
+    "anime-fan-videos": {
+      "welcome_message": "Anime Fan Videos & Edits!",
+      "template": "🎬 {title} - {creator} #animefanvideos #edits",
+      "ping_roles": ["@FanVideos"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎬", "🔥"],
+      "daily_limit": 5
+    },
+    "manga-fan-videos": {
+      "welcome_message": "Manga Fan Videos & Edits!",
+      "template": "🎬 {title} - {creator} #mangafanvideos #edits",
+      "ping_roles": ["@MangaFanVideos"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎬", "📖"],
+      "daily_limit": 5
+    },
+    "anime-fan-theories": {
+      "welcome_message": "Anime Fan Theories & Speculations!",
+      "template": "🧐 {theory} - {anime} #animefantheories #speculation",
+      "ping_roles": ["@FanTheories"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🧐", "💡"],
+      "daily_limit": 6
+    },
+    "manga-fan-theories": {
+      "welcome_message": "Manga Fan Theories & Speculations!",
+      "template": "🧐 {theory} - {manga} #mangafantheories #speculation",
+      "ping_roles": ["@MangaFanTheories"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🧐", "💡"],
+      "daily_limit": 6
+    },
+    "anime-music-discussion": {
+      "welcome_message": "Anime Music Discussion & Sharing!",
+      "template": "🎶 {title} - {artist} #animemusicdiscussion #sharing",
+      "ping_roles": ["@MusicDiscussion"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["🎶", "❤️"],
+      "daily_limit": 10
+    },
+    "manga-music-discussion": {
+      "welcome_message": "Manga Music Discussion & Sharing!",
+      "template": "🎶 {title} - {artist} #mangamusicdiscussion #sharing",
+      "ping_roles": ["@MangaMusicDiscussion"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["🎶", "📖"],
+      "daily_limit": 10
+    },
+    "anime-movie-discussion": {
+      "welcome_message": "Anime Movie Discussion & Reviews!",
+      "template": "🎥 {title} - {reviewer} #animemoviediscussion #reviews",
+      "ping_roles": ["@MovieDiscussion"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎥", "🍿"],
+      "daily_limit": 5
+    },
+    "manga-reading-discussion": {
+      "welcome_message": "Manga Reading Discussion & Reviews!",
+      "template": "📚 {title} - {reviewer} #mangareadingdiscussion #reviews",
+      "ping_roles": ["@ReadingDiscussion"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["📚", "☕"],
+      "daily_limit": 5
+    },
+    "anime-episode-recaps": {
+      "welcome_message": "Anime Episode Recaps & Discussions!",
+      "template": "📺 {episode} - {anime} #animeepisoderecaps #discussion",
+      "ping_roles": ["@EpisodeRecaps"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["📺", "💬"],
+      "daily_limit": 10
+    },
+    "manga-chapter-recaps": {
+      "welcome_message": "Manga Chapter Recaps & Discussions!",
+      "template": "📖 {chapter} - {manga} #mangachapterrecaps #discussion",
+      "ping_roles": ["@ChapterRecaps"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["📖", "💬"],
+      "daily_limit": 10
+    },
+    "anime-character-discussion": {
+      "welcome_message": "Anime Character Discussion & Analysis!",
+      "template": "🧑‍🤝‍🧑 {character} - {anime} #animecharacterdiscussion #analysis",
+      "ping_roles": ["@CharacterDiscussion"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🧑‍🤝‍🧑", "🔍"],
+      "daily_limit": 5
+    },
+    "manga-character-discussion": {
+      "welcome_message": "Manga Character Discussion & Analysis!",
+      "template": "🧑‍🤝‍🧑 {character} - {manga} #mangacharacterdiscussion #analysis",
+      "ping_roles": ["@MangaCharacterDiscussion"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🧑‍🤝‍🧑", "🔍"],
+      "daily_limit": 5
+    },
+    "anime-plot-twists": {
+      "welcome_message": "Anime Plot Twists & Surprises!",
+      "template": "😲 {twist} - {anime} #animeplottwists #surprises",
+      "ping_roles": ["@PlotTwists"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["😲", "🎭"],
+      "daily_limit": 4
+    },
+    "manga-plot-twists": {
+      "welcome_message": "Manga Plot Twists & Surprises!",
+      "template": "😲 {twist} - {manga} #mangaplot twists #surprises",
+      "ping_roles": ["@MangaPlotTwists"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["😲", "📚"],
+      "daily_limit": 4
+    },
+    "anime-settings": {
+      "welcome_message": "Anime Settings & World-Building!",
+      "template": "🌍 {setting} - {anime} #animesettings #worldbuilding",
+      "ping_roles": ["@Settings"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🌍", "🏰"],
+      "daily_limit": 5
+    },
+    "manga-settings": {
+      "welcome_message": "Manga Settings & World-Building!",
+      "template": "🌍 {setting} - {manga} #mangasettings #worldbuilding",
+      "ping_roles": ["@MangaSettings"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🌍", "🏯"],
+      "daily_limit": 5
+    },
+    "anime-creators": {
+      "welcome_message": "Anime Creators & Studios!",
+      "template": "🏭 {creator} - {anime} #animecreators #studios",
+      "ping_roles": ["@Creators"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🏭", "🎬"],
+      "daily_limit": 4
+    },
+    "manga-creators": {
+      "welcome_message": "Manga Creators & Artists!",
+      "template": "🎨 {creator} - {manga} #mangacreators #artists",
+      "ping_roles": ["@MangaCreators"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎨", "🖌️"],
+      "daily_limit": 4
+    },
+    "anime-voice-directors": {
+      "welcome_message": "Anime Voice Directors & Studios!",
+      "template": "🎬 {director} - {anime} #animevoicedirectors #studios",
+      "ping_roles": ["@VoiceDirectors"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎬", "🎤"],
+      "daily_limit": 4
+    },
+    "manga-voice-directors": {
+      "welcome_message": "Manga Voice Directors & Studios!",
+      "template": "🎬 {director} - {manga} #mangavoicedirectors #studios",
+      "ping_roles": ["@MangaVoiceDirectors"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎬", "📜"],
+      "daily_limit": 4
+    },
+    "anime-sound-designers": {
+      "welcome_message": "Anime Sound Designers & Composers!",
+      "template": "🎼 {designer} - {anime} #animesounddesigners #composers",
+      "ping_roles": ["@SoundDesigners"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎼", "🎶"],
+      "daily_limit": 4
+    },
+    "manga-sound-designers": {
+      "welcome_message": "Manga Sound Designers & Composers!",
+      "template": "🎼 {designer} - {manga} #mangasounddesigners #composers",
+      "ping_roles": ["@MangaSoundDesigners"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎼", "📖"],
+      "daily_limit": 4
+    },
+    "anime-colorists": {
+      "welcome_message": "Anime Colorists & Their Art!",
+      "template": "🎨 {colorist} - {anime} #animecolorists #art",
+      "ping_roles": ["@Colorists"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎨", "❤️"],
+      "daily_limit": 4
+    },
+    "manga-colorists": {
+      "welcome_message": "Manga Colorists & Their Art!",
+      "template": "🎨 {colorist} - {manga} #mangacolorists #art",
+      "ping_roles": ["@MangaColorists"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🎨", "💖"],
+      "daily_limit": 4
+    },
+    "anime-background-artists": {
+      "welcome_message": "Anime Background Artists & Their Work!",
+      "template": "🏞️ {artist} - {anime} #animebackgroundartists #art",
+      "ping_roles": ["@BackgroundArtists"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🏞️", "🎨"],
+      "daily_limit": 4
+    },
+    "manga-background-artists": {
+      "welcome_message": "Manga Background Artists & Their Work!",
+      "template": "🏞️ {artist} - {manga} #mangabackgroundartists #art",
+      "ping_roles": ["@MangaBackgroundArtists"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🏞️", "🖌️"],
+      "daily_limit": 4
+    },
+    "anime-choreographers": {
+      "welcome_message": "Anime Choreographers & Dance Scenes!",
+      "template": "💃 {choreographer} - {anime} #animechoreographers #dance",
+      "ping_roles": ["@Choreographers"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["💃", "🎶"],
+      "daily_limit": 4
+    },
+    "manga-choreographers": {
+      "welcome_message": "Manga Choreographers & Dance Scenes!",
+      "template": "💃 {choreographer} - {manga} #mangachoreographers #dance",
+      "ping_roles": ["@MangaChoreographers"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["💃", "🖌️"],
+      "daily_limit": 4
+    },
+    "anime-3d-artists": {
+      "welcome_message": "Anime 3D Artists & Their Creations!",
+      "template": "🖥️ {artist} - {anime} #anime3dartists #3dart",
+      "ping_roles": ["@3DArtists"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🖥️", "🎨"],
+      "daily_limit": 4
+    },
+    "manga-3d-artists": {
+      "welcome_message": "Manga 3D Artists & Their Creations!",
+      "template": "🖥️ {artist} - {manga} #manga3dartists #3dart",
+      "ping_roles": ["@Manga3DArtists"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🖥️", "🖌️"],
+      "daily_limit": 4
+    },
+    "anime-mmd": {
+      "welcome_message": "Anime MMD (MikuMikuDance) Creations!",
+      "template": "🎤 {title} - {creator} #animemmd #mmd",
+      "ping_roles": ["@MMD"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎤", "🎶"],
+      "daily_limit": 5
+    },
+    "manga-mmd": {
+      "welcome_message": "Manga MMD (MikuMikuDance) Creations!",
+      "template": "🎤 {title} - {creator} #mangammd #mmd",
+      "ping_roles": ["@MangaMMD"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎤", "📖"],
+      "daily_limit": 5
+    },
+    "anime-music-remixes": {
+      "welcome_message": "Anime Music Remixes & Edits!",
+      "template": "🎶 {title} - {remixer} #animemusicremixes #remix",
+      "ping_roles": ["@MusicRemixes"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎶", "🔥"],
+      "daily_limit": 5
+    },
+    "manga-music-remixes": {
+      "welcome_message": "Manga Music Remixes & Edits!",
+      "template": "🎶 {title} - {remixer} #mangamusicremixes #remix",
+      "ping_roles": ["@MangaMusicRemixes"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎶", "📖"],
+      "daily_limit": 5
+    },
+    "anime-fan-animations": {
+      "welcome_message": "Anime Fan Animations & GIFs!",
+      "template": "🎞️ {title} - {creator} #animefananimations #gifs",
+      "ping_roles": ["@FanAnimations"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎞️", "🔥"],
+      "daily_limit": 5
+    },
+    "manga-fan-animations": {
+      "welcome_message": "Manga Fan Animations & GIFs!",
+      "template": "🎞️ {title} - {creator} #mangafananimations #gifs",
+      "ping_roles": ["@MangaFanAnimations"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎞️", "📖"],
+      "daily_limit": 5
+    },
+    "anime-fan-projects": {
+      "welcome_message": "Anime Fan Projects & Collaborations!",
+      "template": "🤝 {project} - {anime} #animefanprojects #collaboration",
+      "ping_roles": ["@FanProjects"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🤝", "🎉"],
+      "daily_limit": 3
+    },
+    "manga-fan-projects": {
+      "welcome_message": "Manga Fan Projects & Collaborations!",
+      "template": "🤝 {project} - {manga} #mangafanprojects #collaboration",
+      "ping_roles": ["@MangaFanProjects"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 180,
+      "emoji_reactions": ["🤝", "✨"],
+      "daily_limit": 3
+    },
+    "anime-fan-meetups": {
+      "welcome_message": "Anime Fan Meetups & Events!",
+      "template": "📅 {event} - {anime} #animefanmeetups #events",
+      "ping_roles": ["@FanMeetups"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["📅", "🎊"],
+      "daily_limit": 2
+    },
+    "manga-fan-meetups": {
+      "welcome_message": "Manga Fan Meetups & Events!",
+      "template": "📅 {event} - {manga} #mangafanmeetups #events",
+      "ping_roles": ["@MangaFanMeetups"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["📅", "🎉"],
+      "daily_limit": 2
+    },
+    "anime-fan-trailers": {
+      "welcome_message": "Anime Fan Trailers & Previews!",
+      "template": "📽️ {title} - {anime} #animefantrailers #previews",
+      "ping_roles": ["@FanTrailers"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["📽️", "🔥"],
+      "daily_limit": 5
+    },
+    "manga-fan-trailers": {
+      "welcome_message": "Manga Fan Trailers & Previews!",
+      "template": "📽️ {title} - {manga} #mangafantrailers #previews",
+      "ping_roles": ["@MangaFanTrailers"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["📽️", "📖"],
+      "daily_limit": 5
+    },
+    "anime-fan-reviews": {
+      "welcome_message": "Anime Fan Reviews & Critiques!",
+      "template": "📝 {title} - {reviewer} #animefanreviews #critiques",
+      "ping_roles": ["@FanReviews"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["📝", "⭐"],
+      "daily_limit": 5
+    },
+    "manga-fan-reviews": {
+      "welcome_message": "Manga Fan Reviews & Critiques!",
+      "template": "📝 {title} - {reviewer} #mangafanreviews #critiques",
+      "ping_roles": ["@MangaFanReviews"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["📝", "⭐"],
+      "daily_limit": 5
+    },
+    "anime-fan-themes": {
+      "welcome_message": "Anime Fan Themes & AMVs!",
+      "template": "🎶 {theme} - {anime} #animefanthemes #amvs",
+      "ping_roles": ["@FanThemes"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎶", "🔥"],
+      "daily_limit": 5
+    },
+    "manga-fan-themes": {
+      "welcome_message": "Manga Fan Themes & AMVs!",
+      "template": "🎶 {theme} - {manga} #mangafanthemes #amvs",
+      "ping_roles": ["@MangaFanThemes"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🎶", "📖"],
+      "daily_limit": 5
+    },
+    "anime-fan-characters": {
+      "welcome_message": "Anime Fan Characters & Cosplays!",
+      "template": "👤 {character} - {anime} #animefancharacters #cosplay",
+      "ping_roles": ["@FanCharacters"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["👤", "🎭"],
+      "daily_limit": 5
+    },
+    "manga-fan-characters": {
+      "welcome_message": "Manga Fan Characters & Cosplays!",
+      "template": "👤 {character} - {manga} #mangafancharacters #cosplay",
+      "ping_roles": ["@MangaFanCharacters"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["👤", "🖌️"],
+      "daily_limit": 5
+    },
+    "anime-fan-cosplay": {
+      "welcome_message": "Anime Fan Cosplay Showcase!",
+      "template": "🤩 {character} - {anime} #animefancosplay #showcase",
+      "ping_roles": ["@FanCosplay"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🤩", "❤️"],
+      "daily_limit": 5
+    },
+    "manga-fan-cosplay": {
+      "welcome_message": "Manga Fan Cosplay Showcase!",
+      "template": "🤩 {character} - {manga} #mangafancosplay #showcase",
+      "ping_roles": ["@MangaFanCosplay"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 120,
+      "emoji_reactions": ["🤩", "💖"],
+      "daily_limit": 5
+    },
+    "anime-fan-events": {
+      "welcome_message": "Anime Fan Events & Conventions!",
+      "template": "📅 {event} - {anime} #animefanevents #conventions",
+      "ping_roles": ["@FanEvents"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["📅", "🎉"],
+      "daily_limit": 2
+    },
+    "manga-fan-events": {
+      "welcome_message": "Manga Fan Events & Conventions!",
+      "template": "📅 {event} - {manga} #mangafanevents #conventions",
+      "ping_roles": ["@MangaFanEvents"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 240,
+      "emoji_reactions": ["📅", "🎊"],
+      "daily_limit": 2
+    },
+    "anime-fan-news": {
+      "welcome_message": "Anime Fan News & Updates!",
+      "template": "📰 {headline} - {anime} #animefannews #updates",
+      "ping_roles": ["@FanNews"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["📰", "🔥"],
+      "daily_limit": 10
+    },
+    "manga-fan-news": {
+      "welcome_message": "Manga Fan News & Updates!",
+      "template": "📰 {headline} - {manga} #mangafannews #updates",
+      "ping_roles": ["@MangaFanNews"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 60,
+      "emoji_reactions": ["📰", "📖"],
+      "daily_limit": 10
+    },
+    "anime-fan-discussion": {
+      "welcome_message": "Anime Fan Discussion & Chat!",
+      "template": "💬 {topic} - {anime} #animefandiscussion #chat",
+      "ping_roles": ["@FanDiscussion"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 30,
+      "emoji_reactions": ["💬", "🔥"],
+      "daily_limit": 24
+    },
+    "manga-fan-discussion": {
+      "welcome_message": "Manga Fan Discussion & Chat!",
+      "template": "💬 {topic} - {manga} #mangafandiscussion #chat",
+      "ping_roles": ["@MangaFanDiscussion"],
+      "thread_enabled": true,
+      "pin_rotation": true,
+      "post_interval": 30,
+      "emoji_reactions": ["💬", "✨"],
+      "daily_limit": 24
+    }
+  },
+  "sources": [
+    "anilist", "reddit", "youtube", "ann", "mangadex", "myanimelist", "anichart", "livechart", "twitter", "crunchyroll"
+  ],
+  "dashboard": {
+    "enabled": true,
+    "port": 8080
+  },
+  "backup": {
+    "enabled": true,
+    "path": "config_backup_YYYY-MM-DD.json"
+  }
+}

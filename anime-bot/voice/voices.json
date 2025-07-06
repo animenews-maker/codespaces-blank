@@ -1,0 +1,10 @@
+{
+  "default": "en-US-Wavenet-D",
+  "characters": {
+    "gojo": "ja-JP-Wavenet-B",
+    "chika": "ja-JP-Wavenet-C",
+    "luffy": "ja-JP-Wavenet-D",
+    "ayanami": "ja-JP-Wavenet-E",
+    "zenitsu": "ja-JP-Wavenet-F"
+  }
+}

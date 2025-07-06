@@ -10,6 +10,7 @@ from core.db import run_init_db
 from core.scheduler import start_scheduler
 from discord.bot import start_discord_bot
 from web.keep_alive import keep_alive
+from datetime import datetime
 
 
 def setup_logging():
@@ -20,6 +21,7 @@ def setup_logging():
     )
     logging.getLogger('discord').setLevel(logging.WARNING)
     logging.getLogger('apscheduler').setLevel(logging.WARNING)
+    logging.info(f"Logging initialized at {datetime.now().isoformat()}")
 
 
 def shutdown_handler(signum, frame):

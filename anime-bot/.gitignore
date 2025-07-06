@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.env.*
+.venv
+venv/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# DB
+*.db
+*.sqlite
+*.sqlite3
+
+# Replit
+.replit
+
+# Backup configs
+config_backup_*.json

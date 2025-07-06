@@ -1,17 +1,259 @@
 {
+  "bot_settings": {
+    "prefix": "!",
+    "admin_roles": ["Admin", "Bot Manager"],
+    "update_interval_minutes_short": 15,
+    "update_interval_hours_long": 24,
+    "database_clean_days": 90
+  },
   "channels": [
     {
-      "id": "123456789012345678",
+      "id": 1389642196453691624,
       "name": "allnews",
-      "sources": ["anilist", "reddit", "youtube", "ann", "mangadex"],
-      "welcome_message": "Welcome to All Anime News!",
-      "pinned_message": "This channel combines all anime and manga news.",
-      "post_template": "**{title}**\n{description}\n{url}",
-      "active": true
+      "type": "news",
+      "welcome_message": "Welcome to #allnews! Stay updated with the latest in anime & manga news.",
+      "pinned_message": "This channel aggregates news from various sources. Check frequently for updates!",
+      "post_template": "📰 **Breaking News:** {title}\n🔗 {link}\n\n*Source: {source}*",
+      "enabled": true,
+      "sources": [
+        "ANN", "Crunchyroll-News", "MyAnimeList-News", "LiveChart-News", "ComicNatalie", "Reddit-Anime",
+        "AniList-Airings", "LiveChart-Airings", "LiveChart-Upcoming", "MyAnimeList-Ratings", "ANN-Anime",
+        "AniList-Upcoming", "MangaDex-News", "ComicNatalie-Upcoming", "YouTube-Trailers", "AniTrendz-Trailers",
+        "MangaDex-API", "LiveChart-Schedule", "MyAnimeList-Manga", "AniList-Ratings", "MAL-Trending",
+        "AnimeChan-Quote", "Reddit-Manga", "YouTube-Reviews", "Twitter-Anime", "Instagram-Anime",
+        "Threads-Anime", "Telegram-Anime", "AniTrendz-News", "AnimeNewsPlus", "AnimeCorner-News",
+        "AnimeHype", "AnimeUKNews", "OtakuUSA", "AnimePlanet-News", "AnimeTrending", "Anime-YouTube-Shorts",
+        "MangaUpdates", "Anime-Discord-News", "Anime-Subreddit-News", "Anime-Official-Twitter", "Anime-Official-Instagram",
+        "AnimeJapan-News", "AnimeTV", "Anime-YouTube-Reviews", "Anime-YouTube-Interviews", "Anime-YouTube-Events",
+        "MangaPlus-News", "MangaPlus-Chapters", "MangaTimeKirara", "Anime-Official-Facebook", "Anime-Official-Threads",
+        "Facebook-Anime", "TikTok-Anime", "Pixiv-Anime", "Bilibili-Anime", "VK-Anime", "Discord-News-Webhook",
+        "Discord-Memes-Webhook", "Discord-Events-Webhook", "Discord-Fanart-Webhook", "Google-News-Anime",
+        "NewsAPI-Anime", "RapidAPI-Anime", "Jikan-Anime", "AnimeChan-API", "MangaUpdates-API", "AnimePlanet-API",
+        "AniTrendz-API", "AnimeUKNews-API", "AnimeHype-API", "AnimeJapan-API", "AnimeTV-API", "OtakuUSA-API"
+      ],
+      "dynamic_image": true
+    },
+    {
+      "id": 1389607601943220314,
+      "name": "animein",
+      "type": "news",
+      "welcome_message": "Here's your go-to for all anime-specific announcements!",
+      "pinned_message": "Only anime news here! No manga spoilers.",
+      "post_template": "🌟 **Anime Alert:** {title}\n🔗 {link}\n\n*Read more: {source}*",
+      "enabled": true,
+      "sources": [
+        "ANN-Anime",
+        "AniList-Airings",
+        "LiveChart-Airings",
+        "LiveChart-Upcoming",
+        "MyAnimeList-Ratings"
+      ],
+      "dynamic_image": true
+    },
+    {
+      "id": 1389607621702713445,
+      "name": "mangain",
+      "type": "news",
+      "welcome_message": "Get the latest manga news and updates here!",
+      "pinned_message": "Dedicated to manga announcements. Discuss theories in #manga-discussion!",
+      "post_template": "📚 **Manga Update:** {title}\n🔗 {link}\n\n*Source: {source}*",
+      "enabled": true,
+      "sources": [
+        "ANN-Manga",
+        "MyAnimeList-Manga",
+        "MangaDex-News",
+        "ComicNatalie"
+      ],
+      "dynamic_image": true
+    },
+    {
+      "id": 1389607647614996572,
+      "name": "trailers-teasers",
+      "type": "updates",
+      "welcome_message": "Catch the newest anime and manga trailers!",
+      "pinned_message": "New trailers posted as soon as they drop! Enjoy the previews.",
+      "post_template": "🎬 **New Trailer:** {title}\n🔗 {link}\n\n*Studio: {studio}*",
+      "enabled": true,
+      "sources": [
+        "YouTube-Trailers",
+        "LiveChart-Trailers",
+        "AniTrendz-Trailers"
+      ],
+      "dynamic_image": true
+    },
+    {
+      "id": 1389607760634843237,
+      "name": "episode-alerts",
+      "type": "updates",
+      "welcome_message": "Never miss a new episode!",
+      "pinned_message": "Alerts for currently airing anime episodes. Spoilers may be present!",
+      "post_template": "📺 **New Episode Alert!** {title} - Episode {episode_number}\n🔗 {link}\n\n*Airs: {air_date}*",
+      "enabled": true,
+      "sources": [
+        "AniList-Airings",
+        "LiveChart-Airings"
+      ]
+    },
+    {
+      "id": 1389607804008140912,
+      "name": "manga-chapters",
+      "type": "updates",
+      "welcome_message": "Stay updated with the latest manga chapter releases!",
+      "pinned_message": "Fresh manga chapters as they're released. Discuss in #manga-discussion.",
+      "post_template": "📖 **Manga Chapter:** {title} - Chapter {chapter_number}\n🔗 {link}\n\n*Series: {series_title}*",
+      "enabled": true,
+      "sources": [
+        "MangaDex-API"
+      ]
+    },
+    {
+      "id": 1391099520921894953,
+      "name": "upcominganime",
+      "type": "news",
+      "welcome_message": "Discover what's coming next in the anime world!",
+      "pinned_message": "Upcoming anime announcements, release dates, and cast info.",
+      "post_template": "✨ **Upcoming Anime:** {title}\n🗓️ Release: {release_date}\n🔗 {link}\n\n*Genre: {genre}*",
+      "enabled": true,
+      "sources": [
+        "AniList-Upcoming",
+        "LiveChart-Upcoming"
+      ]
+    },
+    {
+      "id": 1391099659040198686,
+      "name": "upcomingmanga",
+      "type": "news",
+      "welcome_message": "Find out about future manga releases and series!",
+      "pinned_message": "Get a sneak peek at manga series on the horizon.",
+      "post_template": "📚 **Upcoming Manga:** {title}\n🗓️ Release: {release_date}\n🔗 {link}\n\n*Author: {author}*",
+      "enabled": true,
+      "sources": [
+        "ComicNatalie-Upcoming"
+      ]
+    },
+    {
+      "id": 1391099781719265300,
+      "name": "release-calendars",
+      "type": "updates",
+      "welcome_message": "Your weekly guide to anime and manga releases!",
+      "pinned_message": "Check here for the latest weekly release schedules.",
+      "post_template": "📅 **Weekly Release Calendar:**\n{content}",
+      "enabled": true,
+      "sources": [
+        "LiveChart-Schedule"
+      ]
+    },
+    {
+      "id": 1389607822106558566,
+      "name": "ratings",
+      "type": "news",
+      "welcome_message": "See how anime and manga titles are rated by the community!",
+      "pinned_message": "Discussions about popularity, reviews, and ratings for various titles.",
+      "post_template": "📊 **Rating Update:** {title} - {rating}/10 on {platform}\n🔗 {link}",
+      "enabled": true,
+      "sources": [
+        "MyAnimeList-Ratings",
+        "AniList-Ratings"
+      ]
+    },
+    {
+      "id": 1391099983708819658,
+      "name": "trending-weekly",
+      "type": "news",
+      "welcome_message": "What's hot right now? Find out the top trending titles of the week!",
+      "pinned_message": "Weekly compilation of the most talked-about anime and manga.",
+      "post_template": "📈 **Trending Weekly:** #{rank} {title}\n*Popularity Score: {score}*",
+      "enabled": true,
+      "sources": [
+        "AniList-Trending",
+        "MAL-Trending"
+      ]
+    },
+    {
+      "id": 1389607839160340480,
+      "name": "monthly",
+      "type": "news",
+      "welcome_message": "Your monthly dose of anime & manga highlights!",
+      "pinned_message": "Recaps of the past month's major news, releases, and discussions.",
+      "post_template": "🔄 **Monthly Recap - {month}**\n\n{content}",
+      "enabled": true
+    },
+    {
+      "id": 1391100284121383123,
+      "name": "anime-discussion",
+      "type": "discussion",
+      "welcome_message": "General chat about all things anime!",
+      "pinned_message": "Be respectful and avoid spoilers unless properly tagged.",
+      "enabled": true
+    },
+    {
+      "id": 1391100372738900069,
+      "name": "manga-discussion",
+      "type": "discussion",
+      "welcome_message": "Dive into discussions about your favorite manga and theories!",
+      "pinned_message": "Spoilers for new chapters are expected here. Discuss freely!",
+      "enabled": true
+    },
+    {
+      "id": 1391100490556903496,
+      "name": "recommendations",
+      "type": "discussion",
+      "welcome_message": "Need a new watch or read? Ask for or give recommendations!",
+      "pinned_message": "Help others discover new favorites. Use !recommend for bot suggestions.",
+      "enabled": true
+    },
+    {
+      "id": 1391100585020751882,
+      "name": "spoiler-zone",
+      "type": "discussion",
+      "welcome_message": "This is a safe space for spoilers! Enter at your own risk.",
+      "pinned_message": "All spoilers are allowed here. You've been warned!",
+      "enabled": true
+    },
+    {
+      "id": 1391100675332640768,
+      "name": "fanart-showcase",
+      "type": "creative",
+      "welcome_message": "Share your amazing anime and manga fanart!",
+      "pinned_message": "Original creations or curated art. Please credit artists!",
+      "enabled": true
+    },
+    {
+      "id": 1391100778722103438,
+      "name": "anime-memes",
+      "type": "fun",
+      "welcome_message": "Got a funny anime meme? Post it here!",
+      "pinned_message": "Keep it clean and anime-related. Laughter is the best medicine!",
+      "enabled": true
+    },
+    {
+      "id": 1391100910045892639,
+      "name": "anime-events",
+      "type": "event",
+      "welcome_message": "Stay informed about anime conventions, streams, and meetups!",
+      "pinned_message": "Local and online events for the anime community.",
+      "post_template": "🗓️ **Anime Event:** {title}\n📍 Location: {location}\n🔗 Info: {link}",
+      "enabled": true
+    },
+    {
+      "id": 1391101026530234499,
+      "name": "dailyanimequote",
+      "type": "fun",
+      "welcome_message": "A daily dose of wisdom and inspiration from anime characters!",
+      "pinned_message": "Check back every day for a new quote!",
+      "post_template": "💡 **Daily Anime Quote:** \"{quote}\" - {character} ({anime_title})",
+      "enabled": true,
+      "sources": [
+        "AnimeChan-Quote"
+      ]
+    },
+    {
+      "id": 1391101199096217612,
+      "name": "bot-commands",
+      "type": "utility",
+      "welcome_message": "This is where you can interact with the bot using commands!",
+      "pinned_message": "Type !help for a list of commands. Please use this channel for bot commands only.",
+      "enabled": true
     }
-    // ... more channels ...
-  ],
-  "admins": ["Admin", "Bot Manager"],
-  "prefix": "!",
-  "interval_minutes": 30
+  ]
 }

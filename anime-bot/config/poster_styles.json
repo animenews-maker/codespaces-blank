@@ -1,0 +1,24 @@
+{
+  "themes": {
+    "minimal": {
+      "bg_color": [30, 30, 60],
+      "font": "Montserrat-Bold.ttf",
+      "accent": "#7ec4fa"
+    },
+    "full_detail": {
+      "bg_color": [20, 20, 20],
+      "font": "Montserrat-Bold.ttf",
+      "accent": "#ffb347"
+    },
+    "neon": {
+      "bg_color": [10, 10, 40],
+      "font": "Orbitron-Bold.ttf",
+      "accent": "#39ff14"
+    },
+    "dark_fantasy": {
+      "bg_color": [15, 10, 25],
+      "font": "Cinzel-Bold.ttf",
+      "accent": "#e94560"
+    }
+  }
+}

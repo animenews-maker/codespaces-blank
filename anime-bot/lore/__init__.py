@@ -1,0 +1,1 @@
+# Anime Lore Encyclopedia module
